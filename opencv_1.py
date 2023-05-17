@@ -101,3 +101,12 @@ cv2.destroyAllWindows()             # 모든 영상 창을 닫아줌
 # playback.volume # current playback volume
 # playback.loops_at_end # True if playback is set to restart when it completes.
 
+# git 사용법
+# git init
+# git remote add origin https://github.com/kcj4800/gdsb_opencv.git
+# git remote -v                                                       # git remote 된 사이트 확인
+# git remote remove origin                                            # git remote 된 origin 삭제
+# git add opencv_1.py
+# git commit -m 'opencv cam test' 
+# git push -u origin main
+# git add 가 되지 않을 땐 폴더 보기에서 숨긴 폴더 보기를 체크한 뒤 .git 폴더를 삭제하고 다시 remote 해준다.
